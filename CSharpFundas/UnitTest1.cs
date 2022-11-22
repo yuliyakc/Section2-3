@@ -10,7 +10,7 @@ namespace CSharpFundas
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            
         }
     }
 }

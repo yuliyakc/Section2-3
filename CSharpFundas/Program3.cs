@@ -8,7 +8,7 @@ namespace CSharpFundas
 {
     public class Program3
     {
-       static void Main1(string[] args)
+       static void M(string[] args)
         {
             Console.WriteLine("I am in the third program");
         }
