@@ -12,6 +12,7 @@
   <ItemGroup>
     <Compile Remove="DecimalOperations.cs" />
     <Compile Remove="Dictionary.cs" />
+    <Compile Remove="Equals.cs" />
     <Compile Remove="Person.cs" />
     <Compile Remove="Program2.cs" />
     <Compile Remove="Program3.cs" />
@@ -25,6 +26,7 @@
   <ItemGroup>
     <None Include="DecimalOperations.cs" />
     <None Include="Dictionary.cs" />
+    <None Include="Equals.cs" />
     <None Include="Person.cs" />
     <None Include="Program2.cs" />
     <None Include="Program3.cs" />

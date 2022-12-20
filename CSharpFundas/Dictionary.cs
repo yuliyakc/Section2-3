@@ -11,7 +11,7 @@ namespace CSharpFundas
     {
         static void Main(string[] args)
         {
-            List<string> lstMonths = new List<string>();
+            List<string> lstMonths = new List<string>(); //collection
             lstMonths.Add("January");
             lstMonths.Add("February");
             lstMonths.Add("March");
@@ -19,7 +19,7 @@ namespace CSharpFundas
             var February = lstMonths[1];
             var March = lstMonths[2];
 
-            var months = new Dictionary<int, string>
+            var months = new Dictionary<int, string> //dictionary
             {
                 {1, "January"},
                 {2, "February"},

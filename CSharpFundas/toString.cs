@@ -13,20 +13,20 @@ namespace CSharpFundas
 
             //toString() = converts an object to its string representation so that it is suitable for display
 
-            Car car = new Car("Chevy", "Corvette", 2022, "blue");
+            Car car = new Car("Chevy", "Corvette", 2022, "blue"); //створюємо instance це змінна, яку ми створюємо самі
             Console.WriteLine(car); 
             Console.ReadKey();
         }
     }
 }
-class Car
+class Car // опис змінної
 {
     String make;
     String model;
     int year;
     String color;
 
-    public Car(String make, String model, int year, String color)
+    public Car(String make, String model, int year, String color) 
     { 
         this.make = make;
         this.model = model;
