@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,25 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Locators.cs" />
     <Compile Remove="LoginPageTests.cs" />
     <Compile Remove="UnitTest1.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Locators.cs" />
     <None Include="LoginPageTests.cs" />
     <None Include="UnitTest1.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Faker.Net" Version="2.0.154" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
-    <PackageReference Include="Selenium.Support" Version="4.7.0" />
-    <PackageReference Include="Selenium.WebDriver" Version="4.7.0" />
+    <PackageReference Include="Selenium.Support" Version="4.8.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.8.0" />
     <PackageReference Include="WebDriverManager" Version="2.16.2" />
   </ItemGroup>
 

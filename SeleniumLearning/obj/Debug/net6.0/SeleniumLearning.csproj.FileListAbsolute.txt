@@ -105,3 +105,5 @@ C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\obj\Debug\net6.0\ref\S
 C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\bin\Debug\net6.0\AngleSharp.dll
 C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
 C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\bin\Debug\net6.0\WebDriverManager.dll
+C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\bin\Debug\net6.0\Faker.Net.6.0.dll
+C:\Users\yuliy\source\repos\CSharpFundas\SeleniumLearning\bin\Debug\net6.0\de-DE\Faker.Net.6.0.resources.dll

@@ -25,6 +25,23 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Faker.Net/2.0.154": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "compile": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "runtime": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "resource": {
+          "lib/net60/de-DE/Faker.Net.6.0.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.1.0": {
         "type": "package",
         "compile": {
@@ -340,7 +357,7 @@
           }
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -409,10 +426,10 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
-      "Selenium.Support/4.7.0": {
+      "Selenium.Support/4.8.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.7.0"
+          "Selenium.WebDriver": "4.8.0"
         },
         "compile": {
           "lib/net6.0/WebDriver.Support.dll": {}
@@ -421,7 +438,7 @@
           "lib/net6.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.7.0": {
+      "Selenium.WebDriver/4.8.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -642,6 +659,37 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Faker.Net/2.0.154": {
+      "sha512": "pkabhT7wxNR1gkPO6ga77XdeqBblaE8a1oY47eMGGvM7DMZ9S8ARZrKkRWaPUNjGCOqtH3oeQSMuEPxd98ir4w==",
+      "type": "package",
+      "path": "faker.net/2.0.154",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.net.2.0.154.nupkg.sha512",
+        "faker.net.nuspec",
+        "lib/net452/Faker.Net.4.5.dll",
+        "lib/net452/de-DE/Faker.Net.4.5.resources.dll",
+        "lib/net462/Faker.Net.4.6.dll",
+        "lib/net462/de-DE/Faker.Net.4.6.resources.dll",
+        "lib/net472/Faker.Net.4.7.dll",
+        "lib/net472/de-DE/Faker.Net.4.7.resources.dll",
+        "lib/net48/Faker.Net.4.8.dll",
+        "lib/net48/de-DE/Faker.Net.4.8.resources.dll",
+        "lib/net50/Faker.Net.5.0.dll",
+        "lib/net50/de-DE/Faker.Net.5.0.resources.dll",
+        "lib/net60/Faker.Net.6.0.dll",
+        "lib/net60/de-DE/Faker.Net.6.0.resources.dll",
+        "lib/netcoreapp3.0/Faker.Net.Core.3.0.dll",
+        "lib/netcoreapp3.0/de-DE/Faker.Net.Core.3.0.resources.dll",
+        "lib/netcoreapp3.1/Faker.Net.Core.3.1.dll",
+        "lib/netcoreapp3.1/de-DE/Faker.Net.Core.3.1.resources.dll",
+        "lib/netstandard2.0/Faker.Net.Standard.2.0.dll",
+        "lib/netstandard2.0/de-DE/Faker.Net.Standard.2.0.resources.dll",
+        "lib/netstandard2.1/Faker.Net.Standard.2.1.dll",
+        "lib/netstandard2.1/de-DE/Faker.Net.Standard.2.1.resources.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.1.0": {
@@ -1275,16 +1323,15 @@
         "version.txt"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1401,7 +1448,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -1516,10 +1563,10 @@
         "nunit3testadapter.nuspec"
       ]
     },
-    "Selenium.Support/4.7.0": {
-      "sha512": "Fy5AIybjkJhVwe2VY2JSYBQeEV0E+HfG11wmkrC1+ICBBWBkt4Ax/oKH+oQ3kTgFCjDY2wAM4LCvMLDxRXi+ig==",
+    "Selenium.Support/4.8.0": {
+      "sha512": "5sibZXRPiG/MpHGJzu4S4xkjCbQE04WTO0jWMug7+7DWI3Sqz1aL0dryEZxovQjUb09KB8MpJZtc7NBabJdvtg==",
       "type": "package",
-      "path": "selenium.support/4.7.0",
+      "path": "selenium.support/4.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1532,14 +1579,14 @@
         "lib/net6.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.7.0.nupkg.sha512",
+        "selenium.support.4.8.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.7.0": {
-      "sha512": "WNGX6JxjBS5f79PQnrB4oO+5U83f8tZfND+rqX2YJVHPdv3xS/zZwljWqGu5UDhluo3kEuuT+DuGEZW8/+9fOA==",
+    "Selenium.WebDriver/4.8.0": {
+      "sha512": "12/UPRx8JHOKnQTW4vTeLT+gkMPF/2RJFbGn6rGLj9NBffd62PdXYoFTWFeOwywSfNpWcJVyjzk9MXoJjrA0Ww==",
       "type": "package",
-      "path": "selenium.webdriver/4.7.0",
+      "path": "selenium.webdriver/4.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1556,7 +1603,7 @@
         "manager/linux/selenium-manager",
         "manager/macos/selenium-manager",
         "manager/windows/selenium-manager.exe",
-        "selenium.webdriver.4.7.0.nupkg.sha512",
+        "selenium.webdriver.4.8.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
@@ -1817,12 +1864,13 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Faker.Net >= 2.0.154",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
-      "Selenium.Support >= 4.7.0",
-      "Selenium.WebDriver >= 4.7.0",
+      "Selenium.Support >= 4.8.0",
+      "Selenium.WebDriver >= 4.8.0",
       "WebDriverManager >= 2.16.2",
       "coverlet.collector >= 3.1.2"
     ]
@@ -1871,6 +1919,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Faker.Net": {
+            "target": "Package",
+            "version": "[2.0.154, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.1.0, )"
@@ -1889,11 +1941,11 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[4.8.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[4.8.0, )"
           },
           "WebDriverManager": {
             "target": "Package",

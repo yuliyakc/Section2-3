@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
 using Microsoft.Win32;
+using OpenQA.Selenium.Support.Extensions;
 
 namespace SeleniumLearning
 {
@@ -27,15 +28,20 @@ namespace SeleniumLearning
         [Test]
         public void openRegistrationPageTest()
         {
+            var targetEmail = Faker.Internet.Email();
+            Task.Delay(2000).Wait();
+            driver.FindElement(By.CssSelector("#onetrust-accept-btn-handler")).Click();
             driver.FindElement(By.Id("register.firstName")).SendKeys("Yuliya");
             driver.FindElement(By.Id("register.lastName")).SendKeys("Kozina");
-            driver.FindElement(By.Id("register.email")).SendKeys("test1@gmail.com");
-            driver.FindElement(By.Id("register.confirmEmail")).SendKeys("test1@gmail.com");
+            driver.FindElement(By.Id("register.email")).SendKeys(targetEmail);
+            driver.FindElement(By.Id("register.confirmEmail")).SendKeys(targetEmail);
             driver.FindElement(By.Id("password")).SendKeys("Password1!");
             driver.FindElement(By.Id("register.checkPwd")).SendKeys("Password1!");
-            Task.Delay(10000).Wait();
-            driver.FindElement(By.CssSelector("input[id='register.marketingConsent']")).Click();
-            driver.FindElement(By.CssSelector("input[id='registerChkTermsConditions']")).Click();
+           // Task.Delay(10000).Wait();
+            //driver.ExecuteJavaScript("document.querySelector('#loginForm button[type=submit]').click()");
+            driver.ExecuteJavaScript("document.querySelector('[for=\"register.marketingConsent\"]').click()");
+            driver.ExecuteJavaScript("document.querySelector('[for=\"registerChkTermsConditions\"]').click()");
+            driver.ExecuteJavaScript("document.querySelector('#epsonRegisterForm button[type=submit]').click()");
 
         }
     }

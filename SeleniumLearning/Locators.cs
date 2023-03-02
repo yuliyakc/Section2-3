@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using WebDriverManager.DriverConfigs.Impl;
 using OpenQA.Selenium.Support.UI;
 using System.Runtime.InteropServices;
+using System.Reflection.Metadata;
+using OpenQA.Selenium.Support.Extensions;
+using AngleSharp.Dom;
 
 namespace SeleniumLearning
 {
@@ -29,6 +32,8 @@ namespace SeleniumLearning
         public void LocatorsIdentification()
         {
 
+            Task.Delay(2000).Wait();
+            driver.FindElement(By.CssSelector("#onetrust-accept-btn-handler")).Click();
             driver.FindElement(By.Id("j_username")).SendKeys("yuliya.kozina@keenethics.com");
             driver.FindElement(By.Name("j_password")).SendKeys("Password1!");
             // css selector & xpath
@@ -36,8 +41,9 @@ namespace SeleniumLearning
             //s.SelectByIndex(1);
             //driver.FindElement(By.XPath("//button[contains(text(),'Log In')]")).Click();
             //driver.FindElement(By.XPath("//button[@class = 'btn-primary btn--checkout mt-auto']")).Click();
-            Task.Delay(20000).Wait();
-            driver.FindElement(By.CssSelector("#loginForm button[type='submit']")).Click();
+            //driver.ExecuteJavaScript("document.querySelector(\"#loginForm button[type='submit']\").click()");
+            driver.ExecuteJavaScript("document.querySelector('#loginForm button[type=submit]').click()");
+            //driver.FindElement(By.CssSelector(".col-login[type='submit']")).Click();
             Task.Delay(5000).Wait();
 
         }
