@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.DevTools.V107.Cast;
+using OpenQA.Selenium.Support.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,25 +23,39 @@ namespace SeleniumLearning.Pages
             this.pageURL = newpageUrl;
         
         }
+       //перегруженный конструктор (конструктор с другим количеством параметров)
+        public LoginPage(IWebDriver dr)// : base(driver, PAGE_URL) { } создаем коснтруктор класса LoginPage
+        {
+            this.driver = dr; //при создании объекта (вызове конструктора класса) свойству этого объекта присваивается значение, переданное в конструктор в качестве аргумента
+        }
+
 
         public void Open() 
         {
             this.driver.Navigate().GoToUrl(this.pageURL);
         }
+        public void Cookies()
+        {
+            //Task.Delay(2000).Wait();
+            driver.FindElement(By.CssSelector("#onetrust-accept-btn-handler")).Click();
+        }
 
 
         public void TypeEmail(string email) 
-        
         {
             driver.FindElement(By.Id("j_username")).SendKeys(email);
         }
 
         public void TypePassword(string password)
-
         {
-            driver.FindElement(By.Name("j_password")).SendKeys(password);
+            driver.FindElement(By.Id("j_password")).SendKeys(password);
         }
 
+        public void LoginBtnClick()
+        {
+            //driver.FindElement(By.XPath("//*[@id=\"loginForm\"]/button")).Click();
+            driver.ExecuteJavaScript("document.querySelector('#loginForm button[type=submit]').click()");
+        }
 
     }
 }
