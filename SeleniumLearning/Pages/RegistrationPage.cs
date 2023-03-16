@@ -1,4 +1,6 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.Extensions;
+using SeleniumLearning.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,24 +33,50 @@ namespace SeleniumLearning.Pages
 
         public void FirstName(string firstName)
         {
-            driver.FindElement(By.Id("register.firstName")).SendKeys("Yuliya");
+            driver.FindElement(By.Id("register.firstName")).SendKeys(firstName);
         }
 
         public void LastName(string lastName)
         {
-            driver.FindElement(By.Id("register.lastName")).SendKeys("Kozina");
+            driver.FindElement(By.Id("register.lastName")).SendKeys(lastName);
         }
 
         public void EmailAddress(string emailAddress)
         {
-            var targetEmail = Faker.Internet.Email();
-            driver.FindElement(By.Id("register.email")).SendKeys(targetEmail);
+            driver.FindElement(By.Id("register.email")).SendKeys(emailAddress);
         }
 
         public void ConfirmEmailAddress(string confirmEmailAddress)
         {
-            var targetEmail = Faker.Internet.Email();
-            driver.FindElement(By.Id("register.confirmEmail")).SendKeys(targetEmail);
+            driver.FindElement(By.Id("register.confirmEmail")).SendKeys(confirmEmailAddress);
+        }
+
+        public void TypePassword(string password)
+        {
+            driver.FindElement(By.Id("password")).SendKeys(password);
+        }
+
+        public void TypeConfirmPassword(string confirmPassword)
+        {
+            driver.FindElement(By.Id("register.checkPwd")).SendKeys(confirmPassword);
+        }
+
+        public void statementAcceptPrivacy()
+        {
+            SeleniumActions.ClickOn(driver,"[for=\"register.marketingConsent\"]");
+
+        }
+
+        public void termsAndConditions()
+        {
+            SeleniumActions.ClickOn(driver,"[for=\"registerChkTermsConditions\"]");
+
+        }
+
+        public void RegisterBtnClick()
+        {
+            SeleniumActions.ClickOn(driver,"#epsonRegisterForm button[type=submit]");
+
         }
 
 

@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.DevTools.V107.Cast;
 using OpenQA.Selenium.Support.Extensions;
+using SeleniumLearning.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,7 +55,8 @@ namespace SeleniumLearning.Pages
         public void LoginBtnClick()
         {
             //driver.FindElement(By.XPath("//*[@id=\"loginForm\"]/button")).Click();
-            driver.ExecuteJavaScript("document.querySelector('#loginForm button[type=submit]').click()");
+            //driver.ExecuteJavaScript("document.querySelector('#loginForm button[type=submit]').click()");
+            SeleniumActions.ClickOn(driver, "#loginForm button[type=submit]");
         }
 
     }

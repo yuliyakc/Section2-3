@@ -17,6 +17,7 @@ namespace SeleniumLearning.Tests
         public void RegistrationTest()
         {
             var targetEmail = Faker.Internet.Email();
+            var targetPassword = "Password1!";
             RegistrationPage registrationPage = new(driver);  
             registrationPage.Open();
             registrationPage.Cookies();
@@ -24,11 +25,11 @@ namespace SeleniumLearning.Tests
             registrationPage.LastName("Kozina");
             registrationPage.EmailAddress(targetEmail);
             registrationPage.ConfirmEmailAddress(targetEmail);
-            //registrationPage.Password();
-            //registrationPage.ConfirmPassword();
-            //registrationPage.сhkStatement();
-            //registrationPage.chkPrivacy();
-            //registrationPage.RegisterBtnClick();
+            registrationPage.TypePassword(targetPassword);
+            registrationPage.TypeConfirmPassword(targetPassword);
+            registrationPage.statementAcceptPrivacy();
+            registrationPage.termsAndConditions();
+            registrationPage.RegisterBtnClick();
             //driver.Quit();
         }
 
