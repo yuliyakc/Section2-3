@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Allure.Core;
+using OpenQA.Selenium;
 using SeleniumLearning.Core;
 using SeleniumLearning.Pages;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumLearning.Tests
 {
+    [AllureNUnit]
     public class RegistrationPageTests
     {
         public static IWebDriver driver = WebDriverFactory.GetDriver();

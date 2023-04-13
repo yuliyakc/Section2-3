@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Allure.Commons": {
+              "target": "Package",
+              "version": "[3.5.0.73, )"
+            },
             "Faker.Net": {
               "target": "Package",
               "version": "[2.0.154, )"
@@ -55,6 +59,10 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
             },
             "NUnit.Analyzers": {
               "target": "Package",
@@ -71,6 +79,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.8.0, )"
+            },
+            "SpecFlow.Allure": {
+              "target": "Package",
+              "version": "[3.5.0.73, )"
             },
             "WebDriverManager": {
               "target": "Package",
