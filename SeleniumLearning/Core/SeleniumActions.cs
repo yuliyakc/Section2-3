@@ -12,11 +12,11 @@ namespace SeleniumLearning.Core
     {
         public static void ClickOn(IWebDriver driver, string selector) //обертка для вызова метода веб-драйвера по выполнению java script в браузере во время теста
         {
-            driver.ExecuteJavaScript($"document.querySelector('{selector}').click()"); // интерполяция строки $ показывает, что внутри будут переменные
+            driver.ExecuteJavaScript($"document.querySelector('{selector}').click()"); // интерполяция строки $ показывает, что внутри будут переменные (переменные вставляются в саму строку)
 
         }
     }
 }
 
-// создаем статический метод ClickOn, который принадлежит самому классу (вызывается на классе, а не объекту класса)
+// создаем статический метод ClickOn, который принадлежит самому классу (вызывается на классе, а не на объекте класса)
 

@@ -1,0 +1,64 @@
+{
+  "uuid": "5165fee1-cb04-4750-8704-bde7d2504c93-tr-0-1005",
+  "historyId": "SeleniumLearning.Tests.LoginPageTest.LoginTest",
+  "fullName": "SeleniumLearning.Tests.LoginPageTest.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginPageTest"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "137ab0a188564814ad9491065f4b918f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686046739839,
+      "stop": 1686046752661
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686046739837,
+  "stop": 1686046752672
+}

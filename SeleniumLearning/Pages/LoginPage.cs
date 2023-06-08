@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace SeleniumLearning.Pages
 {
-    public class LoginPage //:BasePage
+    public class LoginPage 
     {
         private const string PAGE_URL = "https://s2.orientwatch.co.uk/or/en_GB/login";
-        IWebDriver driver; // поле класса, которое превратится в свойство объекта loginPage
+        IWebDriver driver; // поле driver класса LoginPage, которое превратится в свойство объекта loginPage
         public string pageURL; // поле класса, которое превратится в свойство объекта loginPage
         public string pageName; // поле класса, которое превратится в свойство объекта loginPage
 
@@ -24,17 +24,20 @@ namespace SeleniumLearning.Pages
             this.pageURL = newpageUrl;
         
         }
-       //перегруженный конструктор (конструктор с другим количеством параметров)
+       //перегруженный конструктор (конструктор с одинаковым именем, но разной сигнатурой - с другим количеством параметров)
+        // также любой метод класса может быть перегружен
         public LoginPage(IWebDriver dr)// : base(driver, PAGE_URL) { } создаем коснтруктор класса LoginPage
         {
             this.driver = dr; //при создании объекта (вызове конструктора класса) свойству этого объекта присваивается значение, переданное в конструктор в качестве аргумента
         }
 
-
+        //loginPage.Open();
+        //loginPage2.Open();
         public void Open() 
         {
-            this.driver.Navigate().GoToUrl(this.pageURL);
-        }
+            driver.Navigate().GoToUrl(pageURL);
+        }  
+
         public void Cookies()
         {
             //Task.Delay(2000).Wait();

@@ -1,0 +1,12 @@
+{
+  "uuid": "d673acaa-d4c8-4b9d-b984-09e6f40917c3-tc-0-1004",
+  "name": "SeleniumLearning.Tests.LoginPageTest.LoginTest",
+  "children": [
+    "5165fee1-cb04-4750-8704-bde7d2504c93-tr-0-1005"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1686046739833,
+  "stop": 1686046752796
+}

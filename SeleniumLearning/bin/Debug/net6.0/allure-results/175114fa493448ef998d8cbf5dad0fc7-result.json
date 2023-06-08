@@ -1,0 +1,64 @@
+{
+  "uuid": "f860ab74-02e3-4631-b796-e08af69fa69c-tr-0-1007",
+  "historyId": "SeleniumLearning.Tests.RegistrationPageTests.RegistrationTest",
+  "fullName": "SeleniumLearning.Tests.RegistrationPageTests.RegistrationTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "RegistrationTest"
+    },
+    {
+      "name": "testClass",
+      "value": "RegistrationPageTests"
+    }
+  ],
+  "links": [],
+  "name": "RegistrationTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "RegistrationTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "RegistrationTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "032b307408f04b50835620ea5a7416d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682594664611,
+      "stop": 1682594673572
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682594664610,
+  "stop": 1682594673587
+}
