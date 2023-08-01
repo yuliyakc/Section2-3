@@ -1,0 +1,64 @@
+{
+  "uuid": "b3aff67c-94d9-4852-a737-cc88ab6fe53d-tr-0-1005",
+  "historyId": "SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson",
+  "fullName": "SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "LoginTestEpson",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginTestEpson"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginTestEpson",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "279f7729373f428696cf1cfaaa66e2f7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1690895555891,
+      "stop": 1690895563099
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1690895555890,
+  "stop": 1690895563110
+}

@@ -14,9 +14,9 @@ namespace SeleniumLearning.Pages
         private const string PAGE_URL = "https://s2.orientwatch.co.uk/or/en_GB/login";
         IWebDriver driver; // поле класса, которое превратится в свойство объекта RegistrationPage
 
-        public RegistrationPage(IWebDriver dr)// : base(driver, PAGE_URL) { } создаем коснтруктор класса LoginPage
+        public RegistrationPage(IWebDriver driver)// : base(driver, PAGE_URL) { } создаем коснтруктор класса LoginPage
         {
-            this.driver = dr; //при создании объекта (вызове конструктора класса) свойству этого объекта присваивается значение, переданное в конструктор в качестве аргумента
+            this.driver = driver; //при создании объекта (вызове конструктора класса) свойству этого объекта присваивается значение, переданное в конструктор в качестве аргумента
 
         }
 

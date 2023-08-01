@@ -1,0 +1,12 @@
+{
+  "uuid": "958ee539-e290-4b6c-8502-2e3089f77219-tc-0-1006",
+  "name": "SeleniumLearning.Tests.RegistrationPageTestEpson.RegistrationTestEpson",
+  "children": [
+    "2be47349-741c-48bf-8e18-8e1d97328b58-tr-0-1007"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1690893625205,
+  "stop": 1690893633582
+}

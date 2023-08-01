@@ -1,0 +1,67 @@
+{
+  "uuid": "e7072a7c-b4bd-40a4-9dd5-f55f787498c2-tr-0-1007",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTest.ProductListTest",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTest.ProductListTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTest"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTest"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Element was found.\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at SeleniumLearning.Tests.ProductListPageTest.ProductListTest() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests\\ProductListTest.cs:line 27\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Element was found.\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at SeleniumLearning.Tests.ProductListPageTest.ProductListTest() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests\\ProductListTest.cs:line 27\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1e50a7fa5f274887add06d63af0ca17a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686920103591,
+      "stop": 1686920108424
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686920103590,
+  "stop": 1686920108428
+}

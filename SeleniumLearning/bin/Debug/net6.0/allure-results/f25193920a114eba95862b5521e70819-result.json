@@ -1,0 +1,67 @@
+{
+  "uuid": "525bdd08-16d3-4621-820a-b19c3da45dcf-tr-0-1005",
+  "historyId": "SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson",
+  "fullName": "SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "LoginTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=115.0.5790.110)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.get_Url()\r\n   at SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\LoginPageTestEpson.cs:line 24"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=115.0.5790.110)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.get_Url()\r\n   at SeleniumLearning.Tests.LoginPageTestEpson.LoginTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\LoginPageTestEpson.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "75600704e64c4ce193117466f91f4a9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1690888307001,
+      "stop": 1690888311134
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1690888307000,
+  "stop": 1690888311139
+}

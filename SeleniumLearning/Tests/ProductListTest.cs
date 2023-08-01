@@ -22,6 +22,10 @@ namespace SeleniumLearning.Tests
             ProductList productListPage = new(driver);
             productListPage.Open();
             productListPage.Cookies();
+            productListPage.OpenSearch();
+            bool isElementPresent = driver.FindElements(productListPage.SearchInput).Count > 0;
+            Assert.IsTrue(isElementPresent, "Element was found.");
+            productListPage.SearchItem();
         }
     }
 }
