@@ -1,0 +1,67 @@
+{
+  "uuid": "29b4042e-51ff-4258-8cad-4850aa5dc075-tr-0-1009",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidElementStateException : invalid element state: Failed to execute 'querySelector' on 'Document': 'button[fdprocessedid=86rmb7]' is not a valid selector.\n  (Session info: chrome=115.0.5790.171)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\r\n   at SeleniumLearning.Core.SeleniumActions.ClickOn(IWebDriver driver, String selector) in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\SeleniumActions.cs:line 15\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.GoToCheckout() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 51\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 30"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidElementStateException : invalid element state: Failed to execute 'querySelector' on 'Document': 'button[fdprocessedid=86rmb7]' is not a valid selector.\n  (Session info: chrome=115.0.5790.171)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\r\n   at SeleniumLearning.Core.SeleniumActions.ClickOn(IWebDriver driver, String selector) in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\SeleniumActions.cs:line 15\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.GoToCheckout() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 51\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 30"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3fe63a8ca30c4905a354bcbf355e5a59-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1692107014632,
+      "stop": 1692107021087
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1692107014631,
+  "stop": 1692107021094
+}

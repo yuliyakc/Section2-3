@@ -26,6 +26,8 @@ namespace SeleniumLearning.Tests
             bool isElementPresent = driver.FindElements(productListPage.SearchInput).Count > 0;
             Assert.IsTrue(isElementPresent, "Element was found.");
             productListPage.SearchItem();
+
+
         }
     }
 }

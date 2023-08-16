@@ -1,5 +1,7 @@
-﻿using NUnit.Allure.Core;
+﻿using AngleSharp.Dom;
+using NUnit.Allure.Core;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using SeleniumLearning.Core;
 using SeleniumLearning.Pages;
 using System;
@@ -7,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
 
 namespace SeleniumLearning.Tests
 {
@@ -17,15 +21,18 @@ namespace SeleniumLearning.Tests
 
 
         [Test]
-        public void ProductListTestEpson()
+        public async Task ProductListTestEpson()
         {
-            ProductListEpson productListPage = new(driver);
+            ProductListEpson productListPage = new ProductListEpson(driver);
             productListPage.Open();
             productListPage.Cookies();
             productListPage.OpenSearch();
             bool isElementPresent = driver.FindElements(productListPage.SearchInput).Count > 0;
             Assert.IsTrue(isElementPresent, "Element was found.");
-            productListPage.SearchItem();
+            productListPage.SearchItem("EcoTank ET-8550");
+            productListPage.AddItem();
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            productListPage.GoToCheckout();
         }
     }
 }

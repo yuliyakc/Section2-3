@@ -1,0 +1,64 @@
+{
+  "uuid": "07471da9-1938-4355-800d-e1515eb603a9-tr-0-1015",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTest.ProductListTest",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTest.ProductListTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTest"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTest"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ProductListTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fc561953bd524347ac3a3a887b0e2c36-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691761545787,
+      "stop": 1691761558601
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691761545787,
+  "stop": 1691761558605
+}
