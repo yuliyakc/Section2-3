@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b0SuKi89SCnVVymNhzEPVu2t+J7moLklxu/Hb6DXx6CItwgEw4l4jXYznhSHziPqSpVGWL9mrdoFKx7uhWyKDw==",
+  "dgSpecHash": "DTXeA5XtWC3TDzYYBS+gKa2knjuvaI4k0sX7U9av9+nCJCqr3qI2pfP8yntr0FoquXchG4ttsN+uAQavA12/Fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\SeleniumLearning.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,7 @@
     "C:\\Users\\yuliy\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\yuliy\\.nuget\\packages\\selenium.support\\4.8.0\\selenium.support.4.8.0.nupkg.sha512",
     "C:\\Users\\yuliy\\.nuget\\packages\\selenium.webdriver\\4.8.0\\selenium.webdriver.4.8.0.nupkg.sha512",
+    "C:\\Users\\yuliy\\.nuget\\packages\\selenium.webdriver.chromedriver\\117.0.5938.8800\\selenium.webdriver.chromedriver.117.0.5938.8800.nupkg.sha512",
     "C:\\Users\\yuliy\\.nuget\\packages\\sharpziplib\\1.4.1\\sharpziplib.1.4.1.nupkg.sha512",
     "C:\\Users\\yuliy\\.nuget\\packages\\specflow\\3.9.8\\specflow.3.9.8.nupkg.sha512",
     "C:\\Users\\yuliy\\.nuget\\packages\\specflow.allure\\3.5.0.73\\specflow.allure.3.5.0.73.nupkg.sha512",

@@ -1,0 +1,67 @@
+{
+  "uuid": "f2103614-3342-45b0-9176-6888619fc5a3-tr-0-1009",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:61454/session/43f0d8cfd8d0d22f5bffd12beb3e0d47/url. The exception message was: An error occurred while sending the request.\r\n  ----> System.Net.Http.HttpRequestException : An error occurred while sending the request.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..\r\n  ----> System.Net.Sockets.SocketException : An existing connection was forcibly closed by the remote host.",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.Open() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 24\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 27\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:61454/session/43f0d8cfd8d0d22f5bffd12beb3e0d47/url. The exception message was: An error occurred while sending the request.\r\n  ----> System.Net.Http.HttpRequestException : An error occurred while sending the request.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..\r\n  ----> System.Net.Sockets.SocketException : An existing connection was forcibly closed by the remote host.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.Open() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 24\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 27\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9d304aafdc62435c95658158b4a0c5a9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695030548945,
+      "stop": 1695030571163
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695030548944,
+  "stop": 1695030571167
+}

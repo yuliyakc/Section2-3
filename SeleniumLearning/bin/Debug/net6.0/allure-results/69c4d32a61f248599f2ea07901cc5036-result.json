@@ -1,0 +1,67 @@
+{
+  "uuid": "b20400cb-81de-4b9b-8fd8-7977d035799b-tr-0-1009",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeInitializationException : The type initializer for 'SeleniumLearning.Tests.ProductListPageTestEpson' threw an exception.\r\n  ----> System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 116.0.5845.189 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)",
+    "trace": "   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 26\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n--InvalidOperationException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\r\n   at SeleniumLearning.Core.WebDriverFactory.GetDriver() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\WebDriverFactory.cs:line 21\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson..cctor() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 20"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeInitializationException : The type initializer for 'SeleniumLearning.Tests.ProductListPageTestEpson' threw an exception.\r\n  ----> System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 116.0.5845.189 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)",
+        "trace": "   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 26\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n--InvalidOperationException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\r\n   at SeleniumLearning.Core.WebDriverFactory.GetDriver() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\WebDriverFactory.cs:line 21\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson..cctor() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 20"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bf089e9241704666b65a51675b2bbffd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695029721279,
+      "stop": 1695029722984
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695029721278,
+  "stop": 1695029722988
+}

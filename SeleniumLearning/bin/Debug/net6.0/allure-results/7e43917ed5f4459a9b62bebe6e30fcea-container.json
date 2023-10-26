@@ -1,0 +1,12 @@
+{
+  "uuid": "31cbefeb-8c57-45fb-9755-813a5ab30954-tc-0-1004",
+  "name": "SeleniumLearning.Tests.AddToCardPageTestEpson.AddToCardTestEpson",
+  "children": [
+    "92efec6f-f7e3-40da-9370-4d7ae4d46285-tr-0-1005"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1698153147013,
+  "stop": 1698153153017
+}

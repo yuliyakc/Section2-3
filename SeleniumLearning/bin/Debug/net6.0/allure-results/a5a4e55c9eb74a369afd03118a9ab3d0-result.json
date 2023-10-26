@@ -1,0 +1,67 @@
+{
+  "uuid": "e92ea542-a808-4eb3-8477-20aa60a778d9-tr-0-1009",
+  "historyId": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "fullName": "SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductListTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "ProductListPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "ProductListTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.GoToCheckout() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 52\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 35\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ProductListTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at SeleniumLearning.Pages_Epson.BaseEpsonPage.GoToCheckout() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Pages Epson\\BaseEpsonPage.cs:line 52\r\n   at SeleniumLearning.Tests.ProductListPageTestEpson.ProductListTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\ProductListTestEpson.cs:line 35\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3bd92331f5d64f2d99177aacb237a428-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1698153178680,
+      "stop": 1698153190602
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698153178680,
+  "stop": 1698153190612
+}

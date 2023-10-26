@@ -784,6 +784,12 @@
           "build/Selenium.WebDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.ChromeDriver/117.0.5938.8800": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "SharpZipLib/1.4.1": {
         "type": "package",
         "compile": {
@@ -3344,6 +3350,29 @@
         "manager/windows/selenium-manager.exe",
         "selenium.webdriver.4.8.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/117.0.5938.8800": {
+      "sha512": "xFQ/329nVh5hukULvFjVp3S+ggx82LI6SNrAxRUhtrrm0qzNwMI4RMB6kskRrMmxJCbVl8q5sGSkZWzVV+bpDw==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/117.0.5938.8800",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.117.0.5938.8800.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "SharpZipLib/1.4.1": {
@@ -6203,6 +6232,7 @@
       "NUnit3TestAdapter >= 4.2.1",
       "Selenium.Support >= 4.8.0",
       "Selenium.WebDriver >= 4.8.0",
+      "Selenium.WebDriver.ChromeDriver >= 117.0.5938.8800",
       "SpecFlow.Allure >= 3.5.0.73",
       "WebDriverManager >= 2.16.2",
       "coverlet.collector >= 3.1.2"
@@ -6287,6 +6317,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.8.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[117.0.5938.8800, )"
           },
           "SpecFlow.Allure": {
             "target": "Package",

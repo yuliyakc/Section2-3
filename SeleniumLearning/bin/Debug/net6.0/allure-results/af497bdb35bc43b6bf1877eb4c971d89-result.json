@@ -1,0 +1,64 @@
+{
+  "uuid": "cb4ab433-00e2-4deb-8e70-2e99a7c06ba6-tr-0-1005",
+  "historyId": "SeleniumLearning.Tests.AddToCardPageTestEpson.AddToCardTestEpson",
+  "fullName": "SeleniumLearning.Tests.AddToCardPageTestEpson.AddToCardTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddToCardTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "AddToCardPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "AddToCardTestEpson",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddToCardTestEpson"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddToCardTestEpson",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e5400683f7d947bdbe4c31a65ec38fd7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695030575926,
+      "stop": 1695030583151
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695030575925,
+  "stop": 1695030583155
+}

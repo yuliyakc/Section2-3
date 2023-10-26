@@ -29,7 +29,7 @@ namespace SeleniumLearning.Tests
             productListPage.OpenSearch();
             bool isElementPresent = driver.FindElements(productListPage.SearchInput).Count > 0;
             Assert.IsTrue(isElementPresent, "Element was found.");
-            productListPage.SearchItem("EcoTank ET-8550");
+            productListPage.SearchItem("EcoTank ET-2850");
             productListPage.AddItem();
             await Task.Delay(TimeSpan.FromSeconds(5));
             productListPage.GoToCheckout();

@@ -1,0 +1,67 @@
+{
+  "uuid": "08a278bf-afcc-4b90-9bd1-d4cbd2220afa-tr-0-1011",
+  "historyId": "SeleniumLearning.Tests.RegistrationPageTestEpson.RegistrationTestEpson",
+  "fullName": "SeleniumLearning.Tests.RegistrationPageTestEpson.RegistrationTestEpson",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-I78V7AE6"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumLearning.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "RegistrationTestEpson"
+    },
+    {
+      "name": "testClass",
+      "value": "RegistrationPageTestEpson"
+    }
+  ],
+  "links": [],
+  "name": "RegistrationTestEpson",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeInitializationException : The type initializer for 'SeleniumLearning.Tests.RegistrationPageTestEpson' threw an exception.\r\n  ----> System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 116.0.5845.189 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)",
+    "trace": "   at SeleniumLearning.Tests.RegistrationPageTestEpson.RegistrationTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\RegistrationPageTestEpson.cs:line 23\r\n--InvalidOperationException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\r\n   at SeleniumLearning.Core.WebDriverFactory.GetDriver() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\WebDriverFactory.cs:line 21\r\n   at SeleniumLearning.Tests.RegistrationPageTestEpson..cctor() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\RegistrationPageTestEpson.cs:line 16"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "RegistrationTestEpson",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeInitializationException : The type initializer for 'SeleniumLearning.Tests.RegistrationPageTestEpson' threw an exception.\r\n  ----> System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 116.0.5845.189 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)",
+        "trace": "   at SeleniumLearning.Tests.RegistrationPageTestEpson.RegistrationTestEpson() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\RegistrationPageTestEpson.cs:line 23\r\n--InvalidOperationException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\r\n   at SeleniumLearning.Core.WebDriverFactory.GetDriver() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Core\\WebDriverFactory.cs:line 21\r\n   at SeleniumLearning.Tests.RegistrationPageTestEpson..cctor() in C:\\Users\\yuliy\\source\\repos\\CSharpFundas\\SeleniumLearning\\Tests Epson\\RegistrationPageTestEpson.cs:line 16"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ac89563c34364114aee335dee0881e54-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695029743401,
+      "stop": 1695029745207
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695029743400,
+  "stop": 1695029745213
+}

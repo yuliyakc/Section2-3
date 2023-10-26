@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[4.8.0, )"
             },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[117.0.5938.8800, )"
+            },
             "SpecFlow.Allure": {
               "target": "Package",
               "version": "[3.5.0.73, )"

@@ -43,10 +43,16 @@ namespace SeleniumLearning.Pages_Epson
         }
         public void AddItem()
         {
-            driver.FindElement(By.Id("addToCartButton")).Click();
+            //driver.FindElement(By.Id("addToCartButton")).Click();
+            driver.FindElement(By.ClassName("js-buy-now")).Click();
         }
 
         public void GoToCheckout()
+        {
+            driver.FindElements(By.ClassName("js-continue-checkout-button"))[0].Click();
+        }
+
+        public void Checkout()
         {
             driver.FindElements(By.ClassName("js-continue-checkout-button"))[0].Click();
         }
