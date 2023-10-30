@@ -34,6 +34,22 @@ namespace SeleniumLearning.Tests
             await Task.Delay(TimeSpan.FromSeconds(5));
             productListPage.GoToCheckout();
             productListPage.Checkout();
+            productListPage.LoginEmail("yuliya.kozina@keenethics.com");
+            productListPage.LoginPassword("Password1!");
+            productListPage.SubmitCheckout();
+            await Task.Delay(TimeSpan.FromSeconds(3));
+            //productListPage.FirstNameOrder("Yuliya");
+            //productListPage.LastNameOrder("Kozina");
+            //productListPage.TelephoneNameOrder("888529720");
+            productListPage.EnterAddressLink();
+            productListPage.AddressLine1("Flat 11, The Foundry");
+            productListPage.Town("Newcastle upon Tyne");
+            productListPage.PostCode("NE2 1YL");
+            productListPage.SaveAndContinueOrder();
+            productListPage.ShipmentMethodNext();
+            productListPage.BillingSaveAndContinue();
+            productListPage.PaymentMethodCC();
+            productListPage.SwitchToIframe();
         }
     }
 }

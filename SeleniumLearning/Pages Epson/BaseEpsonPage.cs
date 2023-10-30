@@ -1,5 +1,7 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using SeleniumLearning.Core;
+using SeleniumLearning.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,5 +59,76 @@ namespace SeleniumLearning.Pages_Epson
             driver.FindElements(By.ClassName("js-continue-checkout-button"))[0].Click();
         }
 
+        public void LoginEmail(String loginName)
+        {
+            driver.FindElement(By.CssSelector("#j_username")).SendKeys(loginName);
+        }
+
+        public void LoginPassword(String password) 
+        {
+            driver.FindElement(By.CssSelector("#j_password")).SendKeys(password);
+        }
+
+        public void SubmitCheckout()
+        {
+            driver.FindElements(By.ClassName("btn"))[4].Click();
+        }
+
+        public void FirstNameOrder(String firstNameOrder)
+        {
+            driver.FindElement(By.CssSelector("#first-name")).SendKeys(firstNameOrder);
+        }
+        public void LastNameOrder(String lastNameOrder)
+        {
+            driver.FindElement(By.CssSelector("#last-name")).SendKeys(lastNameOrder);
+        }
+        public void TelephoneNameOrder(String telephoneOrder)
+        {
+            driver.FindElement(By.CssSelector("#telephone")).SendKeys(telephoneOrder);
+        }
+
+        public void EnterAddressLink()
+        {
+            driver.FindElement(By.CssSelector("a[data-address-finder-toggle='off']")).Click();
+        }
+
+        public void AddressLine1(String addressLine1)
+        {
+            driver.FindElement(By.CssSelector("#line-1")).SendKeys(addressLine1);
+        }
+        public void Town(String town)
+        {
+            driver.FindElement(By.CssSelector("#town")).SendKeys(town);
+        }
+        public void PostCode(String postCode)
+        {
+            driver.FindElement(By.CssSelector("#postcode")).SendKeys(postCode);
+        }
+        public void SaveAndContinueOrder()
+        {
+            driver.FindElements(By.ClassName("btn"))[1].Click();
+        }
+
+        public void ShipmentMethodNext()
+        {
+            driver.FindElements(By.ClassName("btn"))[0].Click();
+        }
+
+        public void BillingSaveAndContinue()
+        {
+            driver.FindElements(By.ClassName("btn"))[1].Click();
+        }
+
+        public void PaymentMethodCC()
+        {
+            driver.FindElement(By.CssSelector("input[value='adyen_cc']")).Click();
+        }
+
+        public void SwitchToIframe()
+        {
+            IWebElement iframeElement = driver.FindElements(By.ClassName("js-iframe"))[0];
+            driver.SwitchTo().Frame(iframeElement);
+          //  driver.FindElement(By.CssSelector("input[value='encryptedCardNumber']")).SendKeys("4444 3333 2222 1111");
+        }
     }
 }
